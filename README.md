@@ -35,10 +35,12 @@ Please see the target section down below and try to achieve the items as many as
         | lineItem/UsageAccountId | product/ProductName | lineItem/LineItemType | lineItem/UsageType | lineItem/LineItemDescription | lineItem/UsageAmount | lineItem/UnblendedRate | lineItem/UnblendedCost |
         | -- | -- | -- | -- | -- | -- | -- | -- |
         | 467262080079 | Amazon CloudFront | Usage | EU-DataTransfer-Out-Bytes | $0.003 per GB data transfer out (Europe) | 300 | 0.003000 | 0.9 |
+        
         The data after change:
         | lineItem/UsageAccountId | product/ProductName | lineItem/LineItemType | lineItem/UsageType | lineItem/LineItemDescription | lineItem/UsageAmount | lineItem/UnblendedRate | lineItem/UnblendedCost |
         | -- | -- | -- | -- | -- | -- | -- | -- |
         | 467262080079 | Amazon CloudFront | Usage | EU-DataTransfer-Out-Bytes | $0.05 per GB data transfer out (Europe) | 300 | 0.05 | 1.5 |
+        
     1. Notice: 
         1. __lineItem/UnblendedCost__ should be __lineItem/UsageAmount__ * __lineItem/UnblendedRate__
         2. if Rate shows in __lineItem/LineItemDescription__ must change the description.
