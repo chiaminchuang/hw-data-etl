@@ -19,7 +19,7 @@ Please see the target section down below and try to achieve the items as many as
       | product/ProductName | The full name of the AWS service. Use this column to filter AWS usage by AWS service. Sample values: AWS Backup, AWS Config, Amazon Registrar, Amazon Elastic File System, Amazon Elastic Compute Cloud |
       | lineItem/LineItemType | The item's type: It would be Usage, Fee, Credit... |
       | lineItem/LineItemDescription | The item's detail description: It would coverd this item's type, price or some detail description |
-1. Using the __fix.json__ to change the data to update the data sets.
+1. Using __fix.json__ as the basis for updating the data set
     1. Only the part with __product/ProductName=="Amazon CloudFront"__ and __lineItem/LineItemType=="Usage"__ will be affected.
     2. __fix.json__ would contain the price need to be replace the column __lineItem/UnblendedRate__
         ```json
