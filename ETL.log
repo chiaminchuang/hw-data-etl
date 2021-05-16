@@ -1,0 +1,16 @@
+2021-05-16 20:43 - ETL - INFO - Start ETL process
+2021-05-16 20:43 - ETL - INFO - Extracting data from output.csv ...
+2021-05-16 20:43 - ETL - INFO - Extracted 958256 data.
+2021-05-16 20:43 - ETL - INFO - Transform data ...
+2021-05-16 20:43 - ETL - WARNING - No data to be fixed. fix_json: {'lineItem/UsageAccountId': '467262080079', 'lineItem/UsageType': 'AU-DataTransfer-Out-Bytes', 'lineItem/UnblendedRate': 0.033}
+2021-05-16 20:43 - ETL - INFO - Transformed 2 data.
+2021-05-16 20:43 - ETL - INFO - Loading data into ./output ...
+2021-05-16 20:43 - ETL - INFO - Loaded 5 files.
+2021-05-16 20:43 - ETL - INFO - Loaded 10 files.
+2021-05-16 20:44 - ETL - INFO - Loaded 15 files.
+2021-05-16 20:44 - ETL - INFO - Loaded 20 files.
+2021-05-16 20:44 - ETL - INFO - Loaded 25 files.
+2021-05-16 20:44 - ETL - INFO - Loaded 30 files.
+2021-05-16 20:45 - ETL - INFO - Loaded 35 files.
+2021-05-16 20:45 - ETL - INFO - Loaded 40 files.
+2021-05-16 20:45 - ETL - INFO - Totally loaded 40 files.
